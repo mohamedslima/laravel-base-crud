@@ -23,5 +23,11 @@
             Modifica
         </button>
     </a>
+    <form action="{{ route('comics.destroy', [ 'comic' => $comics->id ]) }}" method="post">
+        @csrf
+        @method('delete')
+
+        <button type="submit">Cancella</button>
+      </form>
 </div>
 

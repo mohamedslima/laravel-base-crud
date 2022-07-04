@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header.welcome_header {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.769);
+}
+
+header.welcome_header div.navbar_container {
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+}
+
+header.welcome_header div.navbar_container a {
+  text-decoration: none;
+  color: rgb(143, 212, 235);
+  margin-right: 4rem;
+  font-size: 1.1rem;
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: 3px solid lightblue;
+}
+
+header.welcome_header div.navbar_container a:hover {
+  background-color: lightblue;
+  padding: 1rem;
+  border: none;
+  color: white;
+  transition: 0.8s;
+}
+
+header.welcome_header h1.welcome_title {
+  text-align: center;
+  padding-top: 6rem;
+  color: rgb(0, 152, 202);
+}
+
