@@ -18,5 +18,10 @@
     <p>
         {{ $comics->price }}
     </p>
+    <a href="{{ route('comics.edit', ['comic' => $comics->id ]) }}">
+        <button>
+            Modifica
+        </button>
+    </a>
 </div>
 
